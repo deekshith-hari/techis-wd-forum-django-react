@@ -30,6 +30,7 @@ cd backend
 Python -m venv env
 (For Mac) source env/bin/activate
 (For Windows) env/Scripts\activate
+pip install psycopg2
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
